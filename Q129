@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+enum Subjects
+{
+    C = 101,
+    JAVA = 102,
+    PYTHON = 103,
+    DBMS = 104
+};
+
+int main()
+{
+    enum Subjects s1 = C;
+    enum Subjects s2 = JAVA;
+    enum Subjects s3 = PYTHON;
+    enum Subjects s4 = DBMS;
+
+    printf("C = %d\n", s1);
+    printf("JAVA = %d\n", s2);
+    printf("PYTHON = %d\n", s3);
+    printf("DBMS = %d\n", s4);
+
+    return 0;
+}
